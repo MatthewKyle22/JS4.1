@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+.show {
+    visibility: hidden;
+}
+
+/*.wrapper {*/
+/*  border: 1px solid #95a5a6;*/
+/*  width: 50%;*/
+/*  height: 300px;*/
+/*  margin-top: 16px;*/
+/*  border-radius: 4px;*/
+/*  font-size: 12px;*/
+/*  text-align: center;*/
+/*}*/
+

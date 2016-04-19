@@ -1,9 +1,28 @@
 body {
+    background-color: dodgerblue;
     text-align: center;
 }
-
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.mid p {
+    width: 50%;
+    padding-left: 25%;   
+    text-align: center;
+    /*color: blacks;*/
+}
 .button {
-    background-color: dodgerblue;
+    background-color: #7274FC;
+    color: white;
+    border-radius: 9px;
+    font-size: 17px;
+}
+
+.button2 {
+    background-color: #7274FC;
     color: white;
     border-radius: 9px;
     font-size: 17px;
@@ -13,6 +32,20 @@ body {
     visibility: hidden;
 }
 
+.show2pink {
+    /*visibility: hidden;*/
+    color: pink;
+}
+
+h1 {
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+
 /*.wrapper {*/
 /*  border: 1px solid #95a5a6;*/
 /*  width: 50%;*/
@@ -21,5 +54,5 @@ body {
 /*  border-radius: 4px;*/
 /*  font-size: 12px;*/
 /*  text-align: center;*/
-/*}*/
+/*}*/ 
 

@@ -6,12 +6,26 @@
         <title>JS4.1</title>
     </head>
     <body ng-controller='AppCtrl'>
+        
+        <h2>Welcome</h2>
+        <img src="http://placehold.it/350x150"></img>
+        <div class = 'mid' ng-mouseover='toggleCustom3()'>
+            <p ng-class="{'show2pink' : custom3}">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+<!--#3-->
         <h3>Click The Button</h3>
        
         <button class='button' ng-click='toggleCustom()'>Submit </button>
-        <h1 ng-class="{'show' : custom}">Better show up</h1>
+        <h1 ng-class="{'show' : custom}">YOU HAVE A VIRUS</h1>
+<!--#4-->
+        <button class='button2' ng-click='toggleCustom2()'>Click Here to Solve All Your Problems!</button>
+        <ul ng-class="{'show' : custom2}">
+            <li>Accessing documents..</li>
+            <li>Deleting all files....</li>
+            <li>Deleting Complete.......</li>
+        </ul>
         
-       
         </div>
         <script type="text/javascript" src="main.js"></script>
     </body>
